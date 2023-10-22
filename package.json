@@ -6,8 +6,12 @@
     "dev": "bun run --watch src/index.ts"
   },
   "dependencies": {
+    "@eelkevdbos/elysia-basic-auth": "^1.4.0",
     "@elysiajs/html": "^0.7.3",
-    "elysia": "^0.7.17"
+    "@elysiajs/swagger": "^0.7.3",
+    "elysia": "^0.7.17",
+    "elysia-helmet": "^1.0.1",
+    "mongoose": "^7.6.2"
   },
   "devDependencies": {
     "bun-types": "latest"
